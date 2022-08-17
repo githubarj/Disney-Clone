@@ -2,6 +2,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./Componets/Header";
+import Home from "./Componets/Home";
 import Login from "./Componets/Login";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Login />}></Route>
+          <Route path="/home" element={<Home />}></Route>
         </Routes>
       </Router>
     </div>
