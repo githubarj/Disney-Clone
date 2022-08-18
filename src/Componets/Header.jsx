@@ -116,7 +116,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding 0 36px;
+  padding: 0 36px;
   letter-spacing: 16px;
   z-index: 3;
 `;
