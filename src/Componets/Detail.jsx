@@ -17,12 +17,9 @@ const Detail = (props) => {
         />
       </ImageTitle>
 
-        <ContentMeta>
-            <Controls>
-                Controls
-            </Controls>
-        </ContentMeta>
-
+      <ContentMeta>
+        <Controls>Controls</Controls>
+      </ContentMeta>
     </Container>
   );
 };
@@ -71,11 +68,15 @@ const ImageTitle = styled.div`
   }
 `;
 
-const  ContentMeta  =styled.div`
-    max-width: 874px;
-`
+const ContentMeta = styled.div`
+  max-width: 874px;
+`;
 const Controls = styled.div`
-    
-`
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 24px 0px;
+  min-height: 56px;
+`;
 
 export default Detail;
