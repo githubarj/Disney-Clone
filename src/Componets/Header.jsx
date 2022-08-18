@@ -69,6 +69,7 @@ const Header = (props) => {
       ) : (
         <>
           <NavMenu>
+            
             <a href="/home">
               <img src="/images/home-icon.svg" alt="HOME" />
               <span>HOME</span>
@@ -147,6 +148,7 @@ const NavMenu = styled.div`
   margin-right: auto;
   margin-left: 25px;
 
+
   a {
     display: flex;
     align-items: center;
@@ -184,6 +186,7 @@ const NavMenu = styled.div`
         visibility: hidden;
         width: auto;
       }
+
     }
 
     &:hover {
@@ -198,6 +201,7 @@ const NavMenu = styled.div`
     display: none;
   }
 `;
+
 
 const Login = styled.a`
   background-color: rgba(0, 0, 0, 0.6);
